@@ -19,7 +19,7 @@
         "wallet",
         "web-wallet"
     ],
-    "author": "xinyi",
+    "author": "GreySingularity",
     "license": "Apache-2.0",
     "bugs": {
         "url": "https://github.com/xuperchain/xuper-wallet-web/issues"
