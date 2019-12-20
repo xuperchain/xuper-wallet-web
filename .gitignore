@@ -102,3 +102,20 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Other stuff
+.DS_Store
+Thumbs.db
+
+# IDE configurations
+.idea
+.vscode
+
+# Build
+/output
+/dist
+/dll
+/build
+
+# Test
+conf.test.json

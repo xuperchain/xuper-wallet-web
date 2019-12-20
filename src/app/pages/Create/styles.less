@@ -1,0 +1,107 @@
+.frame {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .stepFrame {
+        max-width: 640px;
+        width: 100%;
+        padding: 0;
+        margin: 10px;
+        background-color: transparent;
+
+        .stepTitle {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 30px;
+            line-height: 1.15;
+
+            @media screen and (min-width: 580px) {
+                //justify-content: flex-start;
+                font-size: 24px;
+
+            }
+        }
+
+        .stepLabel {
+            font-size: 12px;
+            margin-bottom: 60px;
+        }
+
+        .stepComponent {
+        }
+
+        .words {
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        .word {
+            cursor: pointer;
+            display: inline-block;
+            padding: 8px 12px;
+            border: 1px solid #ebebeb;
+            margin: 5px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        .stepBtns {
+            text-align: center;
+            position: absolute;
+            bottom: 62px;
+            margin: auto;
+            left: 0;
+            right: 0;
+            font-size: 16px;
+
+            .stepBtn {
+                width: 235px;
+                height: 47px;
+                margin: 12px;
+            }
+
+            .stepBtnBorder {
+                border: solid 1px #eee;
+                box-sizing: border-box;
+                color: #666;
+                background-color: #fff;
+            }
+        }
+
+        .mnemonicFrame {
+            margin: 0 5px;
+
+            .mnemonicField {
+                width: 100%;
+            }
+        }
+
+        .remark {
+            margin-left: 16px;
+        }
+
+        .actionsContainer {
+            margin-top: 10px;
+        }
+
+        .progress {
+            margin-top: 10px;
+        }
+    }
+
+    .welcomeFrame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+        background-color: transparent;
+
+        .welcomeTitle {
+            margin-bottom: 20px;
+        }
+    }
+}
+

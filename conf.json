@@ -1,0 +1,9 @@
+{
+    "node": "https://xuper.baidu.com/nodeapi",
+    "endorse": {
+        "fee": "100",
+        "server": "https://xuper.baidu.com/nodeapi",
+        "feeAddress": "aB2hpHnTBDxko3UoP2BpBZRujwhdcAFoT",
+        "serviceAddress": "jknGxa6eyum1JrATWvSJKW3thJ9GKHA9n"
+    }
+}

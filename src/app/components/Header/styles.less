@@ -1,0 +1,61 @@
+.frame {
+    @media screen and (max-width: 768px) {
+        //justify-content: center;
+        //flex-grow: 1;
+        flex: 1
+    }
+
+    @media screen and (min-width: 769px) {
+        //justify-content: flex-start;
+    }
+
+    min-height: 80px;
+    padding: 0 10px;
+    position: relative;
+
+    .titleFrame {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: transorm 300ms;
+        flex-grow: 1;
+    }
+
+    .rightTitleFrame {
+        right: 0;
+        left: auto!important;
+    }
+
+    .logo {
+        margin-right: 10px;
+        height: 32px;
+    }
+
+    .avatar {
+
+    }
+
+    .user {
+        background-color: #dedede;
+        padding: 8px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
+
+.endFrame {
+    transition: flex-grow 300ms;
+    flex-grow: 0;
+
+    .titleFrame {
+        left: 0;
+        transform: translateX(0);
+        transition: all 300ms;
+        margin: 0 20px;
+    }
+    //justify-content: start;
+}
