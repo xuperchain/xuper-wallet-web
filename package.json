@@ -5,8 +5,7 @@
     "main": "./src/app/index.js",
     "scripts": {
         "start": "./node_modules/.bin/webpack-dev-server --env local --colors --open --progress --config ./scripts/webpack.local.js",
-        "build": "./node_modules/.bin/webpack --colors --progress --config ./scripts/webpack.prod.js",
-        "release": "./node_modules/.bin/webpack --colors --progress --config ./scripts/webpack.release.js"
+        "build": "./node_modules/.bin/webpack --colors --progress --config ./scripts/webpack.release.js"
     },
     "repository": {
         "type": "git",
@@ -38,7 +37,6 @@
         "clsx": "^1.0.4",
         "normalize.css": "^8.0.1",
         "notistack": "^0.9.7",
-        "path-to-regexp": "^6.1.0",
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
         "react-router-dom": "^5.1.2",
@@ -70,7 +68,7 @@
         "mini-css-extract-plugin": "^0.8.2",
         "optimize-css-assets-webpack-plugin": "^5.0.3",
         "postcss-loader": "^3.0.0",
-        "style-loader": "^1.0.2",
+        "style-loader": "^1.1.1",
         "terser-webpack-plugin": "^2.3.1",
         "url-loader": "^3.0.0",
         "webpack": "^4.41.4",

@@ -24,7 +24,8 @@ module.exports = merge(
             new webpack.DefinePlugin({
                 ENV: JSON.stringify('local'),
                 ENDORSE: JSON.stringify(conf.endorse),
-                NODE: JSON.stringify(conf.node)
+                NODE: JSON.stringify(conf.node),
+                XUPER_HOST: JSON.stringify(conf.xuper)
             })
         ]
     }

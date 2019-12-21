@@ -2,8 +2,10 @@
  * @file (requests)
  */
 
+import conf from '@conf';
+
 export function history(params) {
-    return fetch('/n/api/explorer/address/transactions/' + params(paramsToString))
+    return fetch(`${conf.xuper}/n/api/explorer/address/transactions?` + paramsToString(params))
         .then(response => response.json())
 }
 
