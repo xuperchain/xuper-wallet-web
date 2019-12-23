@@ -32,7 +32,7 @@
         "@material-ui/icons": "^4.5.1",
         "@material-ui/lab": "^4.0.0-alpha.36",
         "@misaka.ink/fetch2": "^1.4.0",
-        "@xuperchain/xuper-sdk": "^1.0.2",
+        "@xuperchain/xuper-sdk": "^1.0.3",
         "bn.js": "^5.0.0",
         "clsx": "^1.0.4",
         "normalize.css": "^8.0.1",
