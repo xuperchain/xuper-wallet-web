@@ -38,6 +38,8 @@ PORT: 8080 [2](#f2)
 - Implements xuper accout and transaction
 - Support for browse transaction history
 
+-----
+
 <a name="f1">1</a>: scripts/extension.js -> [l:37]
 
 <a name="f2">2</a>:  scripts/webpack.dev.js -> [l:29]
